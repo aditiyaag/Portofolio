@@ -75,8 +75,8 @@ const SocialLink = memo(({ icon: Icon, link, label }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Informatics Student", "Frontend Developer", "Tech Enthusiast"];
-const TECH_STACK = ["PHP", "Laravel", "JavaScript", "MySQL", "Tailwind", "Git"];
+const WORDS = ["Informatics Graduate", "Frontend Developer", "Tech Enthusiast"];
+const TECH_STACK = ["Laravel", "PHP", "JavaScript", "ReactJS", "MySQL", "Tailwind"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/aditiyaag", label: "GitHub Profile" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/aditiya-gunawan-806b74301/", label: "LinkedIn Profile" },
@@ -139,12 +139,12 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Aditiya Gunawan — Frontend Developer & Informatics Student</title>
-        <meta name="description" content="Portofolio resmi Aditiya Gunawan, Mahasiswa Informatika Universitas Sultan Ageng Tirtayasa." />
+        <title>Aditiya Gunawan — Frontend Developer & Informatics Graduate</title>
+        <meta name="description" content="Portofolio resmi Aditiya Gunawan, Sarjana Komputer lulusan Informatika Untirta." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://github.com/aditiyaag" />
         <meta property="og:title" content="Aditiya Gunawan — Frontend Developer" />
-        <meta property="og:description" content="Portofolio resmi Aditiya Gunawan, Mahasiswa Informatika Untirta." />
+        <meta property="og:description" content="Portofolio resmi Aditiya Gunawan, Sarjana Komputer Informatika Untirta." />
         <meta property="og:type" content="website" />
       </Helmet>
 
@@ -169,11 +169,11 @@ const Home = () => {
                     <span className="w-[3px] h-6 bg-gradient-to-t from-[#6366f1] to-[#a855f7] ml-1 animate-blink"></span>
                   </div>
 
-                  {/* Description from CV */}
+                  {/* Description updated with S.Kom & IPK 3.53 */}
                   <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                     data-aos="fade-up"
                     data-aos-delay="1000">
-                    Mahasiswa Informatika Universitas Sultan Ageng Tirtayasa yang memiliki ketertarikan pada bidang teknologi, pengembangan web, dan pemrograman. Berkomitmen untuk terus mengembangkan keterampilan dan berkontribusi secara profesional.
+                    Alumni Sarjana Komputer Informatika Universitas Sultan Ageng Tirtayasa dengan IPK 3.53. Berpengalaman dalam pengembangan web modern, sistem informasi instansi, serta antarmuka digital yang responsif.
                   </p>
 
                   {/* Tech Stack */}
